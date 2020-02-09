@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1580927600 source:d:\studium\c ++\linked_in\2_become_a_c++_developer\1_programming_foundations_algorithms\sorting_algorithm\main.cpp
+	<iostream>
+	<array>
+	<vector>
+
