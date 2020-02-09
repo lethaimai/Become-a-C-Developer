@@ -13,6 +13,9 @@ void bubbleSort(std::vector<T>& vectorArray);
 template <typename T>
 void disPlay(std::vector<T> vectorArray);
 
+template<typename T>
+void mergeSort(std::vector<T> vectorArray);
+
 
 
 
@@ -28,6 +31,11 @@ int main()
     // Bubble Sort
     bubbleSort(vectorA);
     disPlay(vectorA);
+
+    
+
+
+
 
 
 
@@ -46,9 +54,9 @@ int main()
 template <typename T>
 void bubbleSort(std::vector<T>& vectorArray)
 {
-    for (int k=0; k< vectorArray.size()-1; k++)
+    for (int k=0; k< vectorArray.size()-2; k++)
     {
-        for(int i=0; i< vectorArray.size()-2; i++)
+        for(int i=0; i< vectorArray.size()-1; i++)
         {
             if (vectorArray[i] > vectorArray[i+1])
             {
@@ -61,14 +69,17 @@ void bubbleSort(std::vector<T>& vectorArray)
 
 
 
+
+
 /// print vector
 template <typename T>
 void disPlay(std::vector<T> vectorArray)
 {
-    for (int i=0; i< vectorArray.size()-1; i++)
+    for (int i=0; i< vectorArray.size(); i++)
     {
         std::cout << vectorArray[i] << "\t";
     }
+    std::cout << "\n";
 }
 
 
