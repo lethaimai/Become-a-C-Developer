@@ -8,7 +8,7 @@
 
 
 
-###1.1. Searching an Ordered List.
+### 1.1. Searching an Ordered List.
 
 - With a sorted list, we can perform a tyoe of search named **Binary Search**.
 
