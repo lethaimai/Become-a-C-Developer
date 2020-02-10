@@ -23,4 +23,8 @@
 [Link of binary search](https://www.youtube.com/watch?v=j5uXyPJ0Pew)
 
 
+### 1.2. Searching max value recursively
+
+- With the function ***findMax***
+
 
