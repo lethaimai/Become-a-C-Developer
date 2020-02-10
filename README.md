@@ -1,4 +1,4 @@
-# Become-a-C++-Developer
+# Become a C++ Developer
 
 ## This is a programm on the plattform E Online Learning from Linkedin
 
