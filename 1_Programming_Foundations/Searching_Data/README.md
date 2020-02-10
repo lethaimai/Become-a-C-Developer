@@ -1,10 +1,10 @@
-# Some of the most commen algorithm of sorting data
-## 1. List of Algorithms
-- The bubble sort
+# Searching Data Algorithms
+## 1. List of lessons
+- Unordered list search
 
-- The merge sort
+- Ordered list seach
 
-- The quick sort
+- Determine if a list is sorted
 
 
 
