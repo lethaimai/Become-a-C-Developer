@@ -18,6 +18,9 @@
 
 - To perform a bynary srearch, we start with 2 indexes: at the beginning and end of the list.
 
+- To see how the algorithm **Binary Search** works, check out this link:
+
+[Link of binary search](https://www.youtube.com/watch?v=j5uXyPJ0Pew)
 
 
 
