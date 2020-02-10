@@ -19,6 +19,9 @@ void mergeSort(std::vector<T>& vectorArray);
 template <typename T>
 void merge(std::vector<T>& vectorArray, std::vector<T>& leftArray, std::vector<T>& rightArray);
 
+template <typename T>
+int partition(std::vector<T>& vectorArray, int low, int high);
+
 
 
 
@@ -29,7 +32,7 @@ void merge(std::vector<T>& vectorArray, std::vector<T>& leftArray, std::vector<T
 int main()
 {
     // Define a vector array
-    std::vector<int> vectorA= {23, 5, 18, 7, 1, 3, 6};
+    std::vector<int> vectorA= {20, 6, 8, 53, 23, 87, 42, 19};
 
     // Bubble Sort
     ///bubbleSort(vectorA);
@@ -37,20 +40,13 @@ int main()
 
 
     // Merge Sort
-    mergeSort(vectorA);
-    disPlay(vectorA);
+    ///mergeSort(vectorA);
+    ///disPlay(vectorA);
+
+    // Quick Sort
+
+   
     
-
-    
-
-
-
-
-
-
-
-
-
     return 0;
 }
 
@@ -144,6 +140,54 @@ void merge(std::vector<T>& vectorArray, std::vector<T>& leftArray, std::vector<T
 }
 
 
+
+
+// Quick Sort includes 2 function: Partitioning and 
+
+/// Paritioning 
+template <typename T>
+int partition(std::vector<T>& vectorArray, int low, int high)
+{
+    int i= low; // index for low values
+    int j= high; // index for high values
+    int pivotValue= vectorArray[low];
+    
+    while (i < j)
+    {
+        do{
+            i++;
+        }while (vectorArray[i]< pivotValue && i< vectorArray.size()-1);
+
+        do{
+            j--;
+        }while (vectorArray[j]> pivotValue && j>0);
+
+        std::cout << "i= "<< i <<"\n";
+        std::cout << "j= "<< j << "\n";
+
+        if (i<j)
+        {
+            swap(vectorArray[i], vectorArray[j]);   
+        }
+    }
+    swap(vectorArray[low], vectorArray[j]);
+    return j;    
+}
+
+
+template<typename T>
+void quickSort(std::vector<T>& vectorArray, int low, int high)
+{
+    if (low<high)
+    {
+        int pivotPos= partition(vectorArray, low, high)
+
+        quickSort(vectorArray, low, pivotPos-1);
+        quickSort(vectorArray, pivotPos+1, high);
+
+
+    }
+}
 
 
 
