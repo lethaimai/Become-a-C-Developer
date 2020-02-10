@@ -16,5 +16,8 @@
 
 ![Unbenannt](https://user-images.githubusercontent.com/53815302/74173723-e73f9100-4c32-11ea-9f18-1bf7a3996569.PNG)
 
+- To perform a bynary srearch, we start with 2 indexes: at the beginning and end of the list.
+
+
 
 
