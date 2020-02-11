@@ -27,4 +27,10 @@
 
 - With the function ***findMax***
 
+- Assuming you have an array Vector A= {25, 12, 7, 38, 4}. The recursive algorithm will be explained in the figure below:
+
+![WhatsApp Image 2020-02-11 at 22 08 19](https://user-images.githubusercontent.com/53815302/74279992-31507180-4d1c-11ea-8c39-cefa5c55c6bd.jpeg)
+
+
+
 
