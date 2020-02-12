@@ -2,9 +2,6 @@
 #include <array>
 #include <vector>
 
-
-
-
 using namespace std;
 
 // Declare Functions
