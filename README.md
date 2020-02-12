@@ -1,6 +1,6 @@
 # Become-a-C-plus-plus-Developer
 
-This is a online course on the plattform E-learning from Linkedin
+This is an online course on the plattform E-learning from Linkedin
 
 ### This course is devided into 9 parts:
 
