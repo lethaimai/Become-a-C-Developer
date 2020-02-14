@@ -17,7 +17,7 @@ template<typename T>
 void mergeSort(std::vector<T>& vectorArray);
 
 template <typename T>
-void merge(std::vector<T>& vectorArray, std::vector<T>& leftArray, std::vector<T>& rightArray);
+void merge(std::vector<T>& vectorArray, std::vector<T> leftArray, std::vector<T> rightArray);
 
 template <typename T>
 int partition(std::vector<T>& vectorArray, int low, int high);
@@ -43,11 +43,11 @@ int main()
 
 
     // Merge Sort
-    ///mergeSort(vectorA);
-    ///disPlay(vectorA);
+    mergeSort(vectorA);
+    
 
     // Quick Sort
-    quickSort(vectorA, 0, vectorA.size());
+    //quickSort(vectorA, 0, vectorA.size());
     disPlay(vectorA);
 
 
@@ -106,7 +106,7 @@ void mergeSort(std::vector<T>& vectorArray)
 
 
 template <typename T>
-void merge(std::vector<T>& vectorArray, std::vector<T>& leftArray, std::vector<T>& rightArray)
+void merge(std::vector<T>& vectorArray, std::vector<T> leftArray, std::vector<T> rightArray)
 {
     int i= 0; // index from leftArray
     int j= 0; // index from rightArray
