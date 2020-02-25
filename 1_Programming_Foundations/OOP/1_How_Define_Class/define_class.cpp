@@ -28,6 +28,14 @@ public:
         std::cout<< m_day << "/" << m_month << "/" << m_year;
     }
 
+    // create function named copy to copy all the data from object Date
+
+    void copy(const DateClass& Date)
+    {
+        m_day= Date.m_day;
+        m_month= Date.m_month;
+        m_year= Date.m_year;
+    }
 
 };
 
@@ -35,9 +43,14 @@ public:
 // Main
 int main()
 {
-    DateClass today; // create an object class
-    today.setDate(25, 02, 2020);
-    today.print();
+    DateClass today; // create an object class named today
+    today.setDate(25, 02, 2020); // set all value to the object
+
+    // Create a new object
+    DateClass newday;
+    // Copy all the value from object today to the object newday 
+    newday.copy(today);
+    newday.print();
  
 
 
