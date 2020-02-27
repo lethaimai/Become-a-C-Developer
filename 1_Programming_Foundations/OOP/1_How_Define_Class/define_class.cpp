@@ -51,6 +51,7 @@ int main()
     // Copy all the value from object today to the object newday 
     newday.copy(today);
     newday.print();
+
  
 
 
